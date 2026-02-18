@@ -1,34 +1,48 @@
-# Твоят Сервиз — Digital Platform Proposal
+# Твоят Сервиз — Цифровая платформа
 
-Technical proposal for building a mobile app + website + Telegram bot for **Твоят Сервиз** — an auto repair shop in Plovdiv, Bulgaria.
+Техническое предложение на разработку мобильного приложения + веб-сайта + Telegram-бота для **Твоят Сервиз** — автосервиза в Пловдиве, Болгария.
 
-**The first auto service mobile app in Plovdiv.**
+**Первое мобильное приложение автосервиза в Пловдиве.**
 
-## Documentation
+## Документация
 
-All project documentation is in the [`/docs`](./docs/) folder:
+Вся проектная документация находится в папке [`/docs`](./docs/):
 
-- [Full Proposal (Index)](./docs/README.md)
+- [Полное предложение (Оглавление)](./docs/README.md)
 
-### Quick links
+### Быстрые ссылки
 
-| Doc | Description |
-|-----|-------------|
-| [01 - Project Overview](./docs/01-PROJECT-OVERVIEW.md) | Vision, business data, competitors, target audience |
-| [02 - Features](./docs/02-FEATURES.md) | All features by phase: MVP, expansion, growth |
-| [03 - Tech Architecture](./docs/03-TECH-ARCHITECTURE.md) | Tech stack, system diagram, data models |
-| [04 - MVP Roadmap](./docs/04-MVP-ROADMAP.md) | Week-by-week development plan |
-| [05 - Telegram Bot](./docs/05-TELEGRAM-BOT.md) | Bot scenarios, commands, notifications |
-| [06 - Screens & UX](./docs/06-SCREENS-AND-UX.md) | Mobile app screen mockups |
-| [07 - Cost Estimate](./docs/07-COST-ESTIMATE.md) | 3 budget options, ROI, payment schedule |
+| Документ | Описание |
+|----------|----------|
+| [01 — Обзор проекта](./docs/01-PROJECT-OVERVIEW.md) | Видение, данные бизнеса, конкуренты, аудитория |
+| [02 — Функциональность](./docs/02-FEATURES.md) | Все фичи по фазам: MVP, расширение, рост |
+| [03 — Техническая архитектура](./docs/03-TECH-ARCHITECTURE.md) | Стек технологий, схема системы, модели данных |
+| [04 — Дорожная карта MVP](./docs/04-MVP-ROADMAP.md) | Понедельный план разработки |
+| [05 — Telegram-бот](./docs/05-TELEGRAM-BOT.md) | Сценарии бота, команды, уведомления |
+| [06 — Экраны и UX](./docs/06-SCREENS-AND-UX.md) | Мокапы экранов мобильного приложения |
+| [07 — Стоимость разработки](./docs/07-COST-ESTIMATE.md) | 3 варианта бюджета, ROI, этапы оплаты |
 
-## Key Numbers
+## Ключевые цифры
 
-- **MVP:** 6-8 weeks, 12,000 — 15,800 BGN
-- **Infrastructure:** ~100-120 BGN/month
-- **ROI:** Payback in 5-7 months
-- **Stack:** React Native (Expo) + Hono + Supabase + grammY
+| Параметр | Значение |
+|----------|----------|
+| **MVP (Фаза 1)** | 6-8 недель, 12 000 — 15 800 лв |
+| **Всё вместе (3 фазы)** | 14-16 недель, 22 200 — 28 060 лв |
+| **Инфраструктура** | ~100-120 лв/мес |
+| **Окупаемость** | 5-7 месяцев |
+| **Стек** | React Native (Expo) + Hono + Supabase + grammY |
 
-## License
+## Что включает
 
-This proposal is proprietary. All rights reserved.
+- Мобильное приложение (iOS + Android) из одного кода
+- Веб-сайт (замена нерабочего tvoyatserviz.com)
+- Telegram-бот для записи и запросов
+- Админ-панель для управления сервизом
+- Калькулятор работ с прайс-листом
+- Фото/видео запросы на ремонт
+- Онлайн-запись с календарём слотов
+- Поддержка 3 языков: Български, Русский, English
+
+## Лицензия
+
+Все права защищены. Документ является собственностью автора.
